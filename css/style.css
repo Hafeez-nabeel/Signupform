@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Montserrat:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ecf0f1;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  /* border: 2px solid red; */
+  margin: 50px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+  width: 40%;
+}
+.form {
+  padding: 20px;
+}
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.container h2 {
+  text-align: center;
+  margin: 10px 0px;
+  text-transform: uppercase;
+}
+.form-control label {
+  display: block;
+  color: #777;
+  margin-bottom: 10px;
+}
+.form .input {
+  padding: 10px 18px;
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #ecf0f1;
+}
+.form input:focus {
+  border-color: green;
+  border: 1px solid #777;
+}
+.gender label {
+  display: block;
+  margin-bottom: 10px;
+  color: #777;
+}
+.hobbies label {
+  color: #777;
+  margin-right: 10px;
+}
+.form button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px 18px;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  background-color: #64b5f6;
+  border-radius: 5px;
+  transition: all 0.3s;
+  color: whitesmoke;
+}
+.form button:hover {
+  background-color: #81d4fa;
+}
